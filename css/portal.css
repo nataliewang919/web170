@@ -1,0 +1,67 @@
+
+html {
+background-color: #ccc;
+ }
+
+h1, h2, h3, h4, h5, h6{
+font-weight: bold;
+}
+
+footer {
+clear:both;
+}
+
+
+body {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  width:80%; 
+  margin:0 auto;/*TRBL*/
+  background-color: lightpink; 
+  padding:0 1em;
+    }
+
+/* Responsive DESKTOP LAYOUT */
+@media all and (min-width:780px) {
+
+div {  
+    width:45%;    
+    float:left;
+    }
+    
+ul, ol {
+margin-left: 30px;
+}
+
+
+h1, h2, h3{
+margin: 10px;
+}
+
+h1.masthead {
+margin-top: 0;
+}
+
+    }
+
+/* Responsive TABLET LAYOUT  */
+@media all and (min-width:481px) and (max-width:779px) {
+
+body {
+background-color: lightblue;
+}
+
+img.me {
+float: right;
+max-width:100%;
+}
+                                                       }
+/* Responsive PHONE LAYOUT  */
+@media all and (max-width:480px) {
+body {
+background-color: darkseagreen;
+}
+
+img.me {
+max-width:100%;
+}
+}

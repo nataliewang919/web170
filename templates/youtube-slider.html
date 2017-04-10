@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>YouTube Slider Demo</title>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, maximum-scale=2" />
+ <!-- Flexslider Gallery styles -->
+ <link href="css/flexslider.css" rel="stylesheet" media="screen" type="text/css" />
+  <!--[if lt IE 9]>
+   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+<h1>YouTube Slider Demo</h1>
+<a href="simple-flexslider.html">Simple Flexslider</a> ~ <a href="thumbnail-slider.html">Thumbnail Slider</a> ~
+<a href="control-nav.html">Control Nav</a> ~ <a href="vimeo-slider.html">Vimeo Slider</a> ~ <a href="youtube-slider.html">YouTube Slider</a>
+<br />
+  <div id="hero">
+    <div class="flexslider">
+        <ul class="slides">
+			<li>
+	            <iframe width="560" height="315" src="//www.youtube.com/embed/9vyqRUZlpl4?enablejsapi=1&version=3&playerapiid=youtubevideo"></iframe>
+	        </li>
+			<li>
+	            <iframe width="560" height="315" src="//www.youtube.com/embed/5BZhFL0hjjo?enablejsapi=1&version=3&playerapiid=youtubevideo"></iframe>
+	        </li>
+	        <li>
+	            <iframe width="560" height="315" src="//www.youtube.com/embed/5XjNlpe7hII?enablejsapi=1&version=3&playerapiid=youtubevideo"></iframe>
+	        </li>
+	        <li>
+	            <iframe width="560" height="315" src="//www.youtube.com/embed/_YyuyrVp0zo?enablejsapi=1&version=3&playerapiid=youtubevideo"></iframe>
+	        </li>
+        </ul>
+    </div>
+</div>
+
+<!-- Start FlexSlider Code, place just before closing body tag --> 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider.js"></script> 
+
+<!-- Main YouTube Configuration File -->
+<script type="text/javascript" src="js/jquery.youtube.js"></script>
+
+<!-- YouTube Support File -->
+<script type="text/javascript" src="js/jquery.fitvids.js"></script>
+
+<!-- Optional FlexSlider Support Files -->  
+<script type="text/javascript" src="js/jquery.easing.js"></script> 
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<!-- End FlexSlider Code -->
+</body>
+</html>
