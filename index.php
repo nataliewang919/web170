@@ -20,7 +20,7 @@
 <h2>Templates</h2>
 <ul>
  <li><a href="templates/home.php">View</a></li>   
- <li><a href="" target="_blank">Code</a></li>       
+ <li><a href="https://github.com/nataliewang919/web170/tree/master/templates" target="_blank">Code</a></li>       
 </ul>
 
 <h2>Protosite</h2>
