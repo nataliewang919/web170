@@ -50,18 +50,13 @@ body {
 background-color: lightblue;
 }
 
-img.me {
-float: right;
-max-width:100%;
-}
-                                                       }
+
+}                                                       }
 /* Responsive PHONE LAYOUT  */
 @media all and (max-width:480px) {
 body {
 background-color: darkseagreen;
 }
 
-img.me {
-max-width:100%;
-}
+
 }
