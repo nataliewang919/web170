@@ -25,7 +25,7 @@
 
 <h2>Protosite</h2>
 <ul>
- <li><a href="protosite/">View</a></li>   
+ <li><a href="http://han0919.com/web170/wordpress/">View</a></li>   
  <li><a href="" target="_blank">Code</a></li>       
 </ul>    
 </div>
