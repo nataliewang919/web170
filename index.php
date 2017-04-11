@@ -31,7 +31,7 @@
 <h2>Protosite</h2>
 <ul>
  <a href="http://han0919.com/web170/wordpress/">View</a><br>  
- <a href="" target="_blank">Code</a><br>     
+ <a href="https://github.com/nataliewang919/web170wordpress" target="_blank">Code</a><br>     
 </ul>    
 </div>
 <!-- END Main Contents -->
