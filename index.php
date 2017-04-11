@@ -12,21 +12,26 @@
 <body> 
 <header>
 <h1 class="masthead">Web170:Han Wang</h1>
+<div class="banner">
+<img src="images/cat.jpg" alt="banner">
+</div>
 </header>
 <!-- END Header -->
 
 <!-- START Main Contents -->
-<div class="main">
+<div class="maintemplates">
 <h2>Templates</h2>
 <ul>
- <li><a href="templates/home.php">View</a></li>   
- <li><a href="https://github.com/nataliewang919/web170/tree/master/templates" target="_blank">Code</a></li>       
+    <a href="templates/home.php">View</a><br>  
+ <a href="https://github.com/nataliewang919/web170templates" target="_blank">Code</a><br> 
 </ul>
+</div>
 
+<div class="mainprotosite">
 <h2>Protosite</h2>
 <ul>
- <li><a href="http://han0919.com/web170/wordpress/">View</a></li>   
- <li><a href="" target="_blank">Code</a></li>       
+ <a href="http://han0919.com/web170/wordpress/">View</a><br>  
+ <a href="" target="_blank">Code</a><br>     
 </ul>    
 </div>
 <!-- END Main Contents -->

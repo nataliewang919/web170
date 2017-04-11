@@ -56,10 +56,13 @@ div.mainparttwo{
 }
 
 div.mainpartone img, div.mainparttwo img {
-	width:100%; 
-   
+	width:100%;   
 }
 
+div.sidebar{
+    
+    width:35%;
+}
 
 /*start-embed responsive code*/ 
 div.embed-container {
@@ -145,8 +148,8 @@ form div{
 
 /*desktop*/	
 @media all and (min-width:1280px){
-body{
-		 
+body{	
+background-color: white;
 margin:auto; 
 	}
 
@@ -164,7 +167,7 @@ article.contactme {
 
 article.mainpage, article.tour{
 	float:left;
-	width:49%; 
+	width:65%; 
 	background-color:white; 
 	 
 }
@@ -182,7 +185,11 @@ footer{
 	padding:25px 0 15px 0; 
 }
 
-
+    aside.sidebar{
+    float:right;
+	width:25%; 
+    }
+    
 article.thingstodo, article.map{
     width:100%; 
 	background-color:white;  
