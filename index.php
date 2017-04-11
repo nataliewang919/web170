@@ -11,7 +11,7 @@
 <!-- START Header-->
 <body> 
 <header>
-<h1 class="masthead">Web170:Han Wang</h1>
+<h1 class="masthead">Web170-Han Wang</h1>
 <div class="banner">
 <img src="images/cat.jpg" alt="banner">
 </div>
